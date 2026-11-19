@@ -26,7 +26,15 @@
         ]
       },
       "asset": "MPMod_5.5.3_fullgame1.0.2_bepinex5.4.23.5.zip",
-      "notes": "Release also bundles CUCoreLib.dll; install CUCoreLib separately if you manage it yourself."
+      "notes": "Release also bundles CUCoreLib.dll; install CUCoreLib separately.",
+      "depends": [
+        {
+          "name": "CUCoreLib",
+          "guid": "net.cucorelib",
+          "minimumVersion": "1.1",
+          "note": "The bundled copy is skipped."
+        }
+      ]
     },
     {
       "name": "CUCoreLib",
