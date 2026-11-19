@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-19T05:14:49.990Z",
+  "mods": [
+    {
+      "name": "QoL Unknown",
+      "repo": "jimmyking9999999/QoL-Unknown",
+      "match": {
+        "dll": [
+          "QoL.Unknown"
+        ],
+        "name": [
+          "QoL Unknown"
+        ]
+      },
+      "asset": "QoL.Unknown.dll",
+      "notes": "Quality-of-life bundle; existing entry in the local manifest."
+    },
+    {
+      "name": "Casualties Together",
+      "repo": "creaturefeaturelarry/casualties-together",
+      "match": {
+        "guid": "CasualtiesMP",
+        "dll": [
+          "CasualtiesMP"
+        ]
+      },
+      "asset": "MPMod_5.5.3_fullgame1.0.2_bepinex5.4.23.5.zip",
+      "notes": "Release also bundles CUCoreLib.dll; install CUCoreLib separately if you manage it yourself."
+    },
+    {
+      "name": "CUCoreLib",
+      "repo": "jimmyking9999999/CUCoreLib",
+      "match": {
+        "guid": "net.cucorelib",
+        "dll": [
+          "CUCoreLib"
+        ]
+      },
+      "asset": "CUCoreLib.dll",
+      "notes": "Shared library for Custom Structures and other CUCoreLib-based mods."
+    },
+    {
+      "name": "CUShocker",
+      "repo": "SkyeCA/CUShocker",
+      "match": {
+        "guid": "my.vore.cushocker",
+        "dll": [
+          "CUShocker"
+        ]
+      },
+      "asset": "CUShocker-0.2.2.zip",
+      "notes": "The zip also contains OpenShock desktop apps; CUHub only installs BepInEx/plugins/CUShocker."
+    },
+    {
+      "name": "Warning Editor",
+      "repo": "HOPE-LGNF/WarningEditor",
+      "match": {
+        "guid": "com.hope.cu.warningeditor",
+        "dll": [
+          "WarningEditor"
+        ]
+      },
+      "asset": "WarningEditor-1.8.3.zip"
+    },
+    {
+      "name": "Casualties: Archipelago (CUAP)",
+      "repo": "Nichologeam/CUAP",
+      "match": {
+        "guid": "nichologeam.cuap",
+        "dll": [
+          "CUAP"
+        ]
+      },
+      "asset": "CUAPClientModv0.13.1.zip",
+      "notes": "Archipelago client; the .apworld and YAML assets are server-side files and are not installed."
+    },
+    {
+      "name": "CU Gamepad",
+      "repo": "knokaut/CUGamepad",
+      "match": {
+        "guid": "com.local.casualtiesunknown.gamepad",
+        "dll": [
+          "CUGamepad"
+        ]
+      },
+      "asset": "CUGamepad.dll"
+    },
+    {
+      "name": "Casualties Quick Menu",
+      "repo": "mdoe123/Casualties-Unknown-QuickMenu",
+      "match": {
+        "guid": "local.casualties.quickmenu",
+        "dll": [
+          "QuickMenu"
+        ]
+      },
+      "asset": "QuickMenu.dll"
+    },
+    {
+      "name": "Together Consciousness Indicator",
+      "repo": "Voxeles/CasualtiesTogetherConsciousnessIndicator",
+      "match": {
+        "guid": "cump.consciousness.indicator",
+        "dll": [
+          "CasualtiesTogetherConsciousnessIndicator"
+        ]
+      },
+      "asset": "CasualtiesTogetherConsciousnessIndicator.zip"
+    },
+    {
+      "name": "Murphy's Law",
+      "repo": "DoggieLicc/CU-MurphysLaw",
+      "match": {
+        "guid": "doggielicc.murphyslaw",
+        "dll": [
+          "MurphysLaw"
+        ]
+      },
+      "asset": "MurphysLaw.dll"
+    },
+    {
+      "name": "CatPatch",
+      "repo": "SprightlyHawk8/CatPatch-Releases",
+      "match": {
+        "guid": "meow.catpatch",
+        "dll": [
+          "CatPatch"
+        ]
+      },
+      "asset": "CatPatch.dll",
+      "notes": "Release-only repository; source is not published."
+    },
+    {
+      "name": "Bark",
+      "repo": "CNCUMC/Bark",
+      "match": {
+        "guid": "org.cncumc.bark",
+        "dll": [
+          "Bark"
+        ]
+      },
+      "asset": "Bark-v2.4.3.zip",
+      "notes": "The zip also ships Lua/Puerts runtimes; installed as a directory mod under Plugins/Bark."
+    },
+    {
+      "name": "New Firearms",
+      "repo": "rushellxyz/NewFirearms",
+      "match": {
+        "guid": "com.rushellxyz.newfirearms",
+        "dll": [
+          "NewFirearms"
+        ]
+      },
+      "asset": "NewFirearms.2.0.1.zip",
+      "notes": "Same release publishes Gun Minigame; the asset is pinned because two zips are attached."
+    },
+    {
+      "name": "Gun Minigame",
+      "repo": "rushellxyz/NewFirearms",
+      "match": {
+        "guid": "com.rushellxyz.gunminigame",
+        "dll": [
+          "GunMinigame"
+        ]
+      },
+      "asset": "GunMinigame.1.0.1.zip",
+      "notes": "Separate plugin shipped in the New Firearms release; asset is pinned."
+    },
+    {
+      "name": "CU Custom Structures",
+      "repo": "jimmyking9999999/CU-Custom-Structures",
+      "match": {
+        "dll": [
+          "Custom.Structures"
+        ]
+      },
+      "asset": "Custom.Structures.dll",
+      "notes": "Requires CUCoreLib. Release also has a zip; the DLL asset is pinned for a simple install."
+    },
+    {
+      "name": "Chinese Translation (a.chs.mod)",
+      "repo": "031fox-ui/a.chs.mod",
+      "match": {
+        "guid": "Mods.Chinese.Translation",
+        "dll": [
+          "Mods.Chinese.Translation"
+        ]
+      },
+      "asset": "Mods.Chinese.Translation.dll",
+      "notes": "README states the plugin GUID is intended to match the DLL file name."
+    },
+    {
+      "name": "CU KeepMyAchievement",
+      "repo": "sol-long/CU-KeepMyAchievement",
+      "match": {
+        "guid": "sol-long.cu.keepmyachievement",
+        "dll": [
+          "CU-KeepMyAchievement"
+        ]
+      },
+      "asset": "CU-KeepMyAchievement.dll"
+    },
+    {
+      "name": "CUAchievements",
+      "repo": "J1ND3R9/CUAchievements",
+      "match": {
+        "guid": "com.cuachievements",
+        "dll": [
+          "CUAchievements"
+        ]
+      },
+      "asset": "CUAchievements-1.2.0.zip"
+    },
+    {
+      "name": "Together Random Host Tools",
+      "repo": "Voxeles/CasualtiesTogetherRandomHostTools",
+      "match": {
+        "guid": "cump.random.host.tools",
+        "dll": [
+          "CasualtiesTogetherRandomHostTools"
+        ]
+      },
+      "asset": "CasualtiesTogetherRandomHostTools.dll"
+    },
+    {
+      "name": "Casualties Ollama Agent",
+      "repo": "vector3dh/Casualties-unknown-Ollama-connector",
+      "match": {
+        "guid": "com.vector.casualties.ollama2",
+        "dll": [
+          "CasualtiesOllamaMod2"
+        ]
+      },
+      "asset": "CasualtiesOllamaMod2.dll",
+      "notes": "Release also publishes source .cs files; only the DLL asset is installed."
+    },
+    {
+      "name": "Together Hangul Speech Compatibility",
+      "repo": "jeonjinyoung96/casualties-together-hangul-compat",
+      "match": {
+        "guid": "jeonjinyoung96.casualties-together.hangul-speech",
+        "dll": [
+          "CasualtiesTogetherHangulCompat"
+        ]
+      },
+      "asset": "CasualtiesTogetherHangulCompat-v1.0.0.zip"
+    },
+    {
+      "name": "Casualties: Unknown Russian Voice Over",
+      "repo": "popca1221-lgtm/casualties-unknown-ru-voice",
+      "match": {
+        "guid": "bionic.casualties.voiceover",
+        "dll": [
+          "CasualtiesVoiceOver"
+        ]
+      },
+      "asset": "CasualtiesVoiceOver_ru_v1.0.zip",
+      "notes": "Large voice pack (about 106 MB); first install may take a while."
+    },
+    {
+      "name": "Casualties T1D",
+      "repo": "LyricLy/Casualties-T1D",
+      "match": {
+        "guid": "com.lyricly.diabetes",
+        "dll": [
+          "Diabetes"
+        ]
+      },
+      "asset": "Diabetes.dll"
+    },
+    {
+      "name": "Player Sprite Replacer",
+      "repo": "dogederp/CasultiesUnknown_Player-sprite-replacer",
+      "match": {
+        "guid": "com.yourname.spritereplacer",
+        "dll": [
+          "body_sprite_replacer"
+        ]
+      },
+      "asset": "Player-sprite-replacer-v2.0.1_plugins.zip"
+    },
+    {
+      "name": "Together Whisper",
+      "repo": "Voxeles/CasualtiesTogetherWhisper",
+      "match": {
+        "guid": "cump.whispermod",
+        "dll": [
+          "CasualtiesTogetherWhisper"
+        ]
+      },
+      "asset": "CasualtiesTogetherWhisper.zip",
+      "notes": "Repository is active, but the latest release is 2026-10-11, just outside the one-month window."
+    },
+    {
+      "name": "CasualtyVR",
+      "repo": "Ezinor/CasualtyVR",
+      "match": {
+        "guid": "casualtyvr.core",
+        "dll": [
+          "CasualtyVR.Core"
+        ]
+      },
+      "asset": "CasualtyVR-1.2.0.zip",
+      "notes": "Repository is active, but the latest release is 2026-10-11, just outside the one-month window."
+    }
+  ]
+}
